@@ -1,5 +1,5 @@
 function filterList(arr) {
- 
- }
-
-  module.exports =filterList
+    return arr.filter(input => typeof input === "number")
+  }
+  
+  module.exports =filterList;
